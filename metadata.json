@@ -1,0 +1,6 @@
+{
+  "name": "ZEMARO",
+  "description": "Ultra-modern multi-vendor e-commerce marketplace with dynamic ads, voice & visual search, seller commission engine, and live order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
