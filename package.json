@@ -1,0 +1,17 @@
+{
+  "name": "zemaro-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZEMARO Multi-Vendor E-Commerce Marketplace - Official Web & Android App",
+  "scripts": {
+    "build": "echo 'Vercel static build completed successfully'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "ecommerce",
+    "marketplace",
+    "zemaro",
+    "android",
+    "vercel"
+  ]
+}
