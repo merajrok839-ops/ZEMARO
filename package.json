@@ -4,7 +4,7 @@
   "private": true,
   "description": "ZEMARO Multi-Vendor E-Commerce Marketplace - Official Web & Android App",
   "scripts": {
-    "build": "echo 'Vercel static build completed successfully'",
+    "build": "mkdir -p public && cp -f index.html public/ 2>/dev/null || true",
     "start": "npx serve ."
   },
   "keywords": [
