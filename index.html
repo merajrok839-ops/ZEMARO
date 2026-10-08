@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>ZEMARO | Multi-Vendor E-Commerce Marketplace & AI Commerce</title>
   <meta name="description" content="ZEMARO - Next-gen multi-vendor e-commerce platform with Gemini AI visual search, flash deals, fast UPI payments, Cash on Delivery, and live GPS order dispatch." />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <meta name="theme-color" content="#FF8C00" />
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -77,14 +81,42 @@
   <header class="sticky top-0 z-40 bg-zemaroCardDark/90 backdrop-blur-md border-b border-zemaroBorderDark px-3 py-2.5 sm:px-6">
     <div class="max-w-7xl mx-auto flex items-center justify-between gap-2 sm:gap-4">
       
-      <!-- Brand Logo -->
-      <div class="flex items-center gap-2 cursor-pointer" onclick="navigateTab('home')">
-        <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-amber-500 flex items-center justify-center font-black text-white text-lg shadow-lg shadow-indigo-500/30">
-          Z
-        </div>
-        <div>
-          <span class="text-base sm:text-xl font-black tracking-wider bg-gradient-to-r from-white via-gray-200 to-indigo-300 bg-clip-text text-transparent">ZEMARO</span>
-          <span class="hidden sm:inline-block ml-1.5 text-[10px] font-bold uppercase tracking-widest text-zemaroAccentCyan px-1.5 py-0.5 rounded bg-cyan-950/60 border border-cyan-800/40">Marketplace</span>
+      <!-- Brand Logo (Official Uploaded Asset: Orange-Yellow Z & Dark Blue ZEMARO) -->
+      <div class="flex items-center cursor-pointer select-none" onclick="navigateTab('home')" title="ZEMARO Home">
+        <div class="bg-white px-2.5 py-1 sm:px-3 sm:py-1 rounded-xl shadow-md border border-white/20 flex items-center transition hover:scale-[1.02] active:scale-95">
+          <svg class="h-6 sm:h-7 w-auto" viewBox="0 0 520 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="zemaroTopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFBA00" />
+                <stop offset="60%" stop-color="#FF7D00" />
+                <stop offset="100%" stop-color="#FF5A00" />
+              </linearGradient>
+              <linearGradient id="zemaroDiagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFB300" />
+                <stop offset="40%" stop-color="#FF8300" />
+                <stop offset="100%" stop-color="#FF4800" />
+              </linearGradient>
+              <linearGradient id="zemaroBlueFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#5B9DF8" />
+                <stop offset="100%" stop-color="#A5CBFC" />
+              </linearGradient>
+              <linearGradient id="zemaroSilverFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFFFFF" />
+                <stop offset="100%" stop-color="#D7E7FD" />
+              </linearGradient>
+            </defs>
+            <!-- Orange-Yellow Stylized Z Emblem -->
+            <g transform="translate(6, 4)">
+              <path d="M 18 16 C 14 16 10 20 10 24 L 10 27 L 78 27 L 96 16 Z" fill="url(#zemaroTopGrad)" />
+              <path d="M 10 24 L 88 24 L 70 50 L 32 50 C 24 50 18 44 14 36 Z" fill="url(#zemaroTopGrad)" />
+              <path d="M 68 38 L 94 22 L 28 114 C 22 118 14 116 10 110 L 8 92 L 56 46 Z" fill="url(#zemaroDiagGrad)" />
+              <path d="M 8 92 L 10 114 C 12 118 16 120 22 118 L 42 98 L 22 86 Z" fill="url(#zemaroTopGrad)" />
+              <polygon points="62,60 88,82 60,82 46,70" fill="url(#zemaroBlueFacet)" />
+              <polygon points="48,88 92,88 80,104 36,104" fill="url(#zemaroSilverFacet)" stroke="#B8D5FA" stroke-width="0.7" />
+            </g>
+            <!-- Dark Navy Blue ZEMARO Wordmark -->
+            <text x="130" y="87" fill="#0A1C3E" font-family="'Inter', 'Montserrat', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="74" font-weight="900" letter-spacing="1.5">ZEMARO</text>
+          </svg>
         </div>
       </div>
 
